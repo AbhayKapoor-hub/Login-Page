@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="label">User Login</h1>
+        <form class="loginform" action="home.html" method="post" name="form" onsubmit="return validated()">
+            <div class="font"> Username </div>
+            <input autocomplete="off" type="text" name="username">
+            <div id="username_error">Please enter your username</div>
+            <div class="font2"> Password </div>
+            <input type="password" name="password">
+            <div id="password_error">Please enter correct password</div>
+        <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
